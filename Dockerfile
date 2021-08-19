@@ -1,5 +1,5 @@
 FROM alpine
 
-RUN apk upgrade --no-cahce && apk add nginx
+RUN apk upgrade --no-cache && apk --no-cache add nginx
 
 CMD ["nginx", "-g", "daemon off;"]
