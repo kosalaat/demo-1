@@ -1,8 +1,10 @@
 name: Test build of the docker image
 
 on: 
-  branches: [ feature-* ]
-
+  push:
+    branches: [ feature-* ]
+  pull_request:
+    branches: [ feature-* ]
   
 jobs:
   test-build:
