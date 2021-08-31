@@ -1,7 +1,7 @@
 name: Test build of the docker image
 
 on: 
-  branch: [ feature-* ]
+  branches: [ feature-* ]
 
   
 jobs:
